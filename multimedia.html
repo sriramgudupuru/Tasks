@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+
+            <br><br>
+
+            <a href="form.html#form">Form</a>
+
+            <br><br>
+
+            <a href="Time_table.html">Table</a>        
+            
+            <br>
+            <br>
+
+            <a href="lists.html">Lists(video,audio)</a>
+            <br><br>
+            
+            <a href="#song">Listen a melody</a>
+            <br><br>
+            <a href="#youtube">Youtube video</a>
+        </nav>
+
+        <h1>Multimedia Elements</h1>
+    </header>
+    <main>
+        <section>
+            <h2> Lets watch a video</h2>
+            <div class="video">
+            
+                <!-- <video src="videos/forest.mp4" width="33%" alt="it's a forest clip" titile="forest scene" controls></video> -->
+                <video width="288" height="288"  controls muted>
+                    <source src="videos/forest.mp4" type="video/mp4" >
+                </video>
+                
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+
+        <section>
+            <h2>Lets listen a melody</h2>
+            <div id="song" class="audio">
+                <audio controls  muted>
+                    <source src="music/mood.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+
+        <section>
+            <h2>Playing a video through youtube</h2>
+            <div  id="youtube" class="youtube">
+                <iframe src="https://www.youtube.com/embed/kUMe1FH4CHE"
+                allowfullscreen ></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="#">Go to Top</a>
+    </footer>
+</body>
+</html>
